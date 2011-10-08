@@ -1,6 +1,6 @@
 = notifier
 
-* http://github.com/cmdjohnson/notifier
+* http://github.com/cmdjohnson/anotifier
 
 == DESCRIPTION:
 
@@ -20,15 +20,15 @@ Run your app. That's all there's up to it.
 
 == INSTALL:
 
- 1. Add the notifier gem to your gemfile
- 2. Create a file config/notifier_config.rb like this:
+ 1. Add the anotifier gem to your gemfile
+ 2. Create a file config/anotifier_config.rb like this:
  
  # -*- encoding : utf-8 -*-
  ################################################################################
- # Config file for Notifier.
+ # Config file for Anotifier.
  ################################################################################
  
- module Notifier
+ module Anotifier
    CONFIG = { 
      :notifications_email_address => "joe@blow.com",
      :application_name => "app.super-roundhouse.net"

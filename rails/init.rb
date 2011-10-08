@@ -4,10 +4,10 @@
 ################################################################################
 
 # Load the config file
-require 'config/notifier_config'
+require 'config/anotifier_config'
 
-raise "notifier: Please create a config file config/initializers/notifier_config.rb" unless defined? Notifier::CONFIG
+raise "anotifier: Please create a config file config/anotifier_config.rb" unless defined? Anotifier::CONFIG
 
 config.after_initialize do
-  ActiveRecord::Base.observers << Notifier::ResourceObserver
+	ActiveRecord::Base.observers << Anotifier::ResourceObserver
 end

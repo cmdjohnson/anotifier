@@ -1,4 +1,4 @@
-module Notifier
+module Anotifier
   class ResourceObserver < ActiveRecord::Observer
     observe ActiveRecord::Base
 
@@ -6,7 +6,7 @@ module Notifier
       ################################################################################
       # generic notification service
       ################################################################################
-      Notifier::ResourceMailer.deliver_new_resource(resource)
+      Anotifier::ResourceMailer.deliver_new_resource(resource)
     end
   end
 end
