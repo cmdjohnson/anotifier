@@ -1,0 +1,14 @@
+History.txt
+Manifest.txt
+README.rdoc
+Rakefile
+lib/notifier.rb
+script/console
+script/destroy
+script/generate
+test/test_helper.rb
+test/test_notifier.rb
+rails/init.rb
+app/models/notifier/resource_mailer.rb
+app/models/notifier/resource_observer.rb
+app/views/notifier/resource_mailer/new_resource.text.html.erb

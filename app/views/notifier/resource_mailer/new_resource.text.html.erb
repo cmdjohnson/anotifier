@@ -1,0 +1,12 @@
+<p class="note">Please note: nonexistent and nil attributes are not listed.</p>
+
+<table class="new_resource">
+  <th>Attribute</th>
+  <th>Value</th>
+  <%- for attribute in @resource.attributes.keys %>
+    <tr>
+      <td><%= h attribute.to_s %></td>
+      <td><%= h @resource.attributes[attribute].inspect %></td>
+    </tr>
+  <%- end %>
+</table>
